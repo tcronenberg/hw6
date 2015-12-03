@@ -5,7 +5,7 @@ using namespace std;
 void detK(double*, double, double, double, const int, const int, const double);
 
 int main(){
-  const int N = 100000, a = 10, b = 28, T = 100;
+  const int N = 10000, a = 10, b = 28, T = 100;
   const double dt = T/double(N), c = 8/3.0;
   
   double x = 1, y = 1, z = 1;
